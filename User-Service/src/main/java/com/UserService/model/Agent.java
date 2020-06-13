@@ -15,7 +15,8 @@ public class Agent {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-
+    
+	//field details
 	private int id;
 	private String name;
 	private String phonenumber;
